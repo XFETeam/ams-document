@@ -2,6 +2,10 @@
 
 > AMS 是一个基于 JSON 动态解析微前端中后台前端/设计解决方案, 当前仓库用于记录 AMS 相关文档使用。
 
+## Demo
+
+[https://xfeteam.github.io/ams-document/](https://xfeteam.github.io/ams-document/)
+
 ## AMS 是什么？
 
 AMS 是一个基于 JSON 动态解析微前端中后台前端/设计解决方案。我们基于优秀的 Ant Design + Ant Design Pro 进行二次开发。
