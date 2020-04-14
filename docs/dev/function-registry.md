@@ -14,3 +14,58 @@ title: 函数仓库
 
 **1. 所有的仓库名称必须小写。** <br />
 **2. 仓库名除了特殊对待的几个以外，其他均与 npm 线上仓库名称一致。**
+
+## 函数转换为 json 原理
+
+我们常见的函数通常表述如下：
+```javascript
+/**
+ * 延迟等待
+ * @param {number} milliseconds - 毫秒
+ */
+export const delay = (milliseconds: number) => {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+};
+```
+
+我们不难发现的是，`delay`能够进一步表述为以下调用形式
+```javascript
+delay.apply(null, [<milliseconds>]);
+```
+
+`delay` 为函数名，我们仍需定义一个函数仓库用于管理一系列的函数所属，即：`registryName='base'`。 `[<milliseconds>]` 为传入参数，这时我们已经可以使用 json 进行进一步的转换表达：
+```json5
+//export const delay = (milliseconds: number) => {
+//  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+//};
+{
+  "reigstryName": "base",
+  "functionName": "delay",
+  "args": [
+    1000 /* 1秒 */
+  ]
+}
+```
+
+
+### 函数仓库 - antd
+
+详细请参考 antd ([ant design](https://ant.design/docs/react/introduce-cn))。为了避免读者对 antd 用法表示迷茫，
+我们提供以下用例便于读者理解。首先我们找到一个 antd 提供的全局实例方法，如：[message](https://ant.design/components/message-cn/):
+
+```json
+// import { message } from 'antd';
+// message.info('This is a normal message');
+
+{
+  "reigstryName": "antd",
+  "functionName": "message",
+  "args": [
+    "This is a normal message"
+  ]
+}
+```
+
+### 函数仓库 - base
+
+文档待补全。

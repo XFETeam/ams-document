@@ -4,6 +4,7 @@ module.exports = {
   sidebarDepth: 2,
   children: [
     'dev/registry',
-    'dev/component-registry'
+    'dev/component-registry',
+    'dev/function-registry'
   ]
 }
