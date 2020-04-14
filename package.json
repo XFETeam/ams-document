@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "ams develop documents",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
+    "start": "npm run docs:dev",
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs"
+  },
+  "directories": {
+    "doc": "docs"
   },
   "repository": {
     "type": "git",
