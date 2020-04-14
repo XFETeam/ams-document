@@ -5,6 +5,7 @@ module.exports = {
   children: [
     'dev/registry',
     'dev/component-registry',
-    'dev/function-registry'
+    'dev/function-registry',
+    'dev/component-lifecycle',
   ]
 }
