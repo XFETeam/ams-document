@@ -1,0 +1,33 @@
+{
+  "name": "ams-document",
+  "version": "1.0.0",
+  "description": "ams develop documents",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run docs:dev",
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XFETeam/ams-document.git"
+  },
+  "keywords": [
+    "xfe",
+    "document"
+  ],
+  "author": "xfe-team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XFETeam/ams-document/issues"
+  },
+  "homepage": "https://github.com/XFETeam/ams-document#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "1.4.0",
+    "@vuepress/plugin-search": "1.4.0",
+    "vuepress": "1.4.0"
+  }
+}
