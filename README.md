@@ -34,10 +34,10 @@ umi@3
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/XFETeam/ams-document)
 
 - Fork it!
-- Create your feature branch: `git checkout -b my-new-feature`
-- Commit your changes: `git commit -am 'Add some feature'`
-- Push to the branch: `git push origin my-new-feature`
-- Submit a pull request
+- 创建新的分支: `git checkout -b my-new-feature`
+- 提交你的变更: `git commit -am 'Add some feature'`
+- 推送分支: `git push origin my-new-feature`
+- 提交一个 PR (pull request)
 
 ## LICENSE
 
