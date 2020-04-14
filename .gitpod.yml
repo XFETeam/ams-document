@@ -1,7 +1,7 @@
 tasks:
   - command: gp await-port 8080 && sleep 3 && gp preview $(gp url 8080)
   - init: yarn
-    command: npm run dev
+    command: npm start
 ports:
   - port: 8080
     onOpen: ignore
