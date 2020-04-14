@@ -32,6 +32,7 @@ class Card extends React.Component {
 
 ```json5
 {
+  "$$$": "component",
   "registryName": "antd",
   "componentName": "Card",
   "lifecycle": {
@@ -53,6 +54,7 @@ class Card extends React.Component {
 
 ```json5
 {
+  "$$$": "component",
   "registryName": "html",
   "componentName": "div",
   "lifecycle": {

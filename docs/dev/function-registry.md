@@ -38,7 +38,9 @@ delay.apply(null, [<milliseconds>]);
 //export const delay = (milliseconds: number) => {
 //  return new Promise((resolve) => setTimeout(resolve, milliseconds));
 //};
+// delay(1000);
 {
+  "$$$": "function",
   "reigstryName": "base",
   "functionName": "delay",
   "args": [
@@ -58,6 +60,7 @@ delay.apply(null, [<milliseconds>]);
 // message.info('This is a normal message');
 
 {
+  "$$$": "function",
   "reigstryName": "antd",
   "functionName": "message",
   "args": [

@@ -26,6 +26,7 @@ title: 组件仓库
 ```json5
 // <a></a>
 {
+  "$$$": "component",
   "registryName": "html",
   "componentName": "a",
   ...
@@ -35,6 +36,7 @@ title: 组件仓库
 ```json5
 // <div></div>
 {
+  "$$$": "component",
   "registryName": "html",
   "componentName": "div",
   ...
@@ -54,6 +56,7 @@ antd 并能够使用官网上的所有提供的[组件案例](https://ant.design
 // import { Button } from 'antd';
 // <Button type="primary">Primary</Button>
 {
+  "$$$": "component",
   "registryName": "antd",
   "componentName": "Button",
   "props": {
@@ -83,6 +86,7 @@ antd 并能够使用官网上的所有提供的[组件案例](https://ant.design
 // );
 
 {
+  "$$$": "component",
   "registryName": "antd",
   "componentName": "Card",
   "props": {
@@ -93,6 +97,7 @@ antd 并能够使用官网上的所有提供的[组件案例](https://ant.design
   },
   "children": [
     {
+      "$$$": "component",
       "registryName": "antd",
       "componentName": "Card.Meta",
       "props": {
