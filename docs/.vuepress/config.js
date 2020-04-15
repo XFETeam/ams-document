@@ -1,6 +1,6 @@
 module.exports = {
   title: 'AMS 使用文档',
-  description: 'AMS 使用文档',
+  description: '一个基于 JSON 动态解析微前端中后台前端/设计解决方案',
   base: '/ams-document/',
   markdown: {
     lineNumbers: true

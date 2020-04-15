@@ -3,7 +3,7 @@
  */
 export const siteData = {
   "title": "AMS 使用文档",
-  "description": "AMS 使用文档",
+  "description": "一个基于 JSON 动态解析微前端中后台前端/设计解决方案",
   "base": "/ams-document/",
   "pages": [
     {
@@ -20,7 +20,7 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-0f0d0151",
       "path": "/",
-      "lastUpdated": "4/14/2020, 12:26:12 PM"
+      "lastUpdated": "4/15/2020, 4:44:58 AM"
     },
     {
       "title": "组件生命周期",
@@ -108,7 +108,8 @@ export const siteData = {
           "title": "用法",
           "slug": "用法"
         }
-      ]
+      ],
+      "lastUpdated": "4/15/2020, 4:44:58 AM"
     },
     {
       "title": "函数仓库",
