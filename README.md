@@ -1,4 +1,4 @@
-# AMS Document
+# AMS Document ![](https://travis-ci.com/XFETeam/ams-document.svg?branch=master)
 
 > AMS 是一个基于 JSON 动态解析微前端中后台前端/设计解决方案, 当前仓库用于记录 AMS 相关文档使用。
 
