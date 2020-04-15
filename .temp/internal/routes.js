@@ -21,11 +21,27 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-5cc728ea",
+    path: "/dev/component-lifecycle.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5cc728ea").then(next)
+    },
+  },
+  {
     name: "v-d88ef170",
     path: "/dev/component-registry.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-d88ef170").then(next)
+    },
+  },
+  {
+    name: "v-1a44d408",
+    path: "/dev/component-store-caches.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1a44d408").then(next)
     },
   },
   {
@@ -50,14 +66,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-00cbe80a").then(next)
-    },
-  },
-  {
-    name: "v-5cc728ea",
-    path: "/dev/component-lifecycle.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5cc728ea").then(next)
     },
   },
   {

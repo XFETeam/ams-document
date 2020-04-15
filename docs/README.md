@@ -1,6 +1,6 @@
 ---
 home: true 
-heroImage: /images/vuejsradar.png
+heroImage: /images/logo.png
 actionText: 开始阅读 →
 actionLink: /intro/intro.html
 # features:

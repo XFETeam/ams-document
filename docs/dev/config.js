@@ -3,9 +3,10 @@ module.exports = {
   collapsable: false,
   sidebarDepth: 2,
   children: [
-    'dev/registry',
-    'dev/component-registry',
-    'dev/function-registry',
-    'dev/component-lifecycle',
+    '/dev/registry',
+    '/dev/component-registry',
+    '/dev/function-registry',
+    '/dev/component-lifecycle',
+    '/dev/component-store-caches',
   ]
 }

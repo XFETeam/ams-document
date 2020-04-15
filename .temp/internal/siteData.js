@@ -10,7 +10,7 @@ export const siteData = {
       "title": "Home",
       "frontmatter": {
         "home": true,
-        "heroImage": "/images/vuejsradar.png",
+        "heroImage": "/images/logo.png",
         "actionText": "开始阅读 →",
         "actionLink": "/intro/intro.html",
         "footer": "MIT Licensed | Copyright © 2020-present XFE",
@@ -21,6 +21,29 @@ export const siteData = {
       "key": "v-0f0d0151",
       "path": "/",
       "lastUpdated": "4/14/2020, 12:26:12 PM"
+    },
+    {
+      "title": "组件生命周期",
+      "frontmatter": {
+        "title": "组件生命周期"
+      },
+      "regularPath": "/dev/component-lifecycle.html",
+      "relativePath": "dev/component-lifecycle.md",
+      "key": "v-5cc728ea",
+      "path": "/dev/component-lifecycle.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "生命周期",
+          "slug": "生命周期"
+        },
+        {
+          "level": 3,
+          "title": "组件挂载/组件卸载",
+          "slug": "组件挂载-组件卸载"
+        }
+      ],
+      "lastUpdated": "4/14/2020, 3:47:36 PM"
     },
     {
       "title": "组件仓库",
@@ -58,7 +81,34 @@ export const siteData = {
           "slug": "组件仓库-base"
         }
       ],
-      "lastUpdated": "4/14/2020, 12:26:12 PM"
+      "lastUpdated": "4/14/2020, 3:47:36 PM"
+    },
+    {
+      "title": "组件存储缓存",
+      "frontmatter": {
+        "title": "组件存储缓存"
+      },
+      "regularPath": "/dev/component-store-caches.html",
+      "relativePath": "dev/component-store-caches.md",
+      "key": "v-1a44d408",
+      "path": "/dev/component-store-caches.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "组件存储缓存",
+          "slug": "组件存储缓存"
+        },
+        {
+          "level": 2,
+          "title": "组件存储缓存部分源码",
+          "slug": "组件存储缓存部分源码"
+        },
+        {
+          "level": 2,
+          "title": "用法",
+          "slug": "用法"
+        }
+      ]
     },
     {
       "title": "函数仓库",
@@ -91,7 +141,7 @@ export const siteData = {
           "slug": "函数仓库-base"
         }
       ],
-      "lastUpdated": "4/14/2020, 12:26:12 PM"
+      "lastUpdated": "4/14/2020, 3:47:36 PM"
     },
     {
       "title": "仓库",
@@ -138,28 +188,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "4/14/2020, 11:18:15 AM"
-    },
-    {
-      "title": "组件生命周期",
-      "frontmatter": {
-        "title": "组件生命周期"
-      },
-      "regularPath": "/dev/component-lifecycle.html",
-      "relativePath": "dev/component-lifecycle.md",
-      "key": "v-5cc728ea",
-      "path": "/dev/component-lifecycle.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "生命周期",
-          "slug": "生命周期"
-        },
-        {
-          "level": 3,
-          "title": "组件挂载/组件卸载",
-          "slug": "组件挂载-组件卸载"
-        }
-      ]
     }
   ],
   "themeConfig": {
@@ -175,7 +203,7 @@ export const siteData = {
         "collapsable": false,
         "sidebarDepth": 2,
         "children": [
-          "intro/intro"
+          "/intro/intro"
         ]
       },
       {
@@ -183,9 +211,11 @@ export const siteData = {
         "collapsable": false,
         "sidebarDepth": 2,
         "children": [
-          "dev/registry",
-          "dev/component-registry",
-          "dev/function-registry"
+          "/dev/registry",
+          "/dev/component-registry",
+          "/dev/function-registry",
+          "/dev/component-lifecycle",
+          "/dev/component-store-caches"
         ]
       }
     ],

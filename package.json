@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run docs:dev",
-    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:dev": "vuepress dev docs --temp .temp --host 0.0.0.0",
     "docs:build": "vuepress build docs"
   },
   "directories": {

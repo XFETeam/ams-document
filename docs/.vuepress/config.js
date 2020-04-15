@@ -2,17 +2,12 @@ module.exports = {
   title: 'AMS 使用文档',
   description: 'AMS 使用文档',
   base: '/ams-document/',
-  plugins: [
-    [
-      '@vuepress/search', {
-      searchMaxSuggestions: 10
-    }
-    ],
-    '@vuepress/back-to-top'
-  ],
   markdown: {
     lineNumbers: true
   },
+  extraWatchFiles: [
+    '../contents/**/*.js'
+  ],
   themeConfig: {
     docsDir: 'docs',
     repo: 'XFETeam/ams-document',
