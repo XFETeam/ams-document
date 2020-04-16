@@ -163,6 +163,23 @@ export const siteData = {
       "lastUpdated": "4/14/2020, 12:26:12 PM"
     },
     {
+      "title": "状态管理",
+      "frontmatter": {
+        "title": "状态管理"
+      },
+      "regularPath": "/fe-customize/state-management.html",
+      "relativePath": "fe-customize/state-management.md",
+      "key": "v-1b6a6fca",
+      "path": "/fe-customize/state-management.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "状态管理",
+          "slug": "状态管理"
+        }
+      ]
+    },
+    {
       "title": "AMS 介绍",
       "frontmatter": {
         "title": "AMS 介绍"

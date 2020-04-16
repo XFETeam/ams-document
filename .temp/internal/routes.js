@@ -61,6 +61,14 @@ export const routes = [
     },
   },
   {
+    name: "v-1b6a6fca",
+    path: "/fe-customize/state-management.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1b6a6fca").then(next)
+    },
+  },
+  {
     name: "v-00cbe80a",
     path: "/intro/intro.html",
     component: GlobalLayout,
