@@ -23,6 +23,33 @@ export const siteData = {
       "lastUpdated": "4/15/2020, 4:44:58 AM"
     },
     {
+      "title": "买量后台 - CostPerBuy",
+      "frontmatter": {
+        "title": "买量后台 - CostPerBuy"
+      },
+      "regularPath": "/customize-projects/cost-per-buy.html",
+      "relativePath": "customize-projects/cost-per-buy.md",
+      "key": "v-4fbb188a",
+      "path": "/customize-projects/cost-per-buy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "买量后台 - CostPerBuy",
+          "slug": "买量后台-costperbuy"
+        },
+        {
+          "level": 2,
+          "title": "基本结构",
+          "slug": "基本结构"
+        },
+        {
+          "level": 2,
+          "title": "组件列表",
+          "slug": "组件列表"
+        }
+      ]
+    },
+    {
       "title": "组件生命周期",
       "frontmatter": {
         "title": "组件生命周期"
@@ -77,8 +104,8 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "组件仓库 - base",
-          "slug": "组件仓库-base"
+          "title": "组件仓库 - ams",
+          "slug": "组件仓库-ams"
         }
       ],
       "lastUpdated": "4/14/2020, 3:47:36 PM"
@@ -138,11 +165,60 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "函数仓库 - base",
-          "slug": "函数仓库-base"
+          "title": "函数仓库 - ams",
+          "slug": "函数仓库-ams"
         }
       ],
       "lastUpdated": "4/14/2020, 3:47:36 PM"
+    },
+    {
+      "title": "内置接口 API",
+      "frontmatter": {
+        "title": "内置接口 API"
+      },
+      "regularPath": "/dev/internal-api.html",
+      "relativePath": "dev/internal-api.md",
+      "key": "v-154ee264",
+      "path": "/dev/internal-api.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "内置接口 API",
+          "slug": "内置接口-api"
+        },
+        {
+          "level": 2,
+          "title": "1. 选择项目 (路径: /)",
+          "slug": "_1-选择项目-路径"
+        },
+        {
+          "level": 2,
+          "title": "2. 开发环境登录 (路径: /login)",
+          "slug": "_2-开发环境登录-路径-login"
+        }
+      ]
+    },
+    {
+      "title": "内置路由",
+      "frontmatter": {
+        "title": "内置路由"
+      },
+      "regularPath": "/dev/internal-routes.html",
+      "relativePath": "dev/internal-routes.md",
+      "key": "v-0f12c62c",
+      "path": "/dev/internal-routes.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "内置路由",
+          "slug": "内置路由"
+        },
+        {
+          "level": 2,
+          "title": "常规流程",
+          "slug": "常规流程"
+        }
+      ]
     },
     {
       "title": "仓库",
@@ -177,7 +253,8 @@ export const siteData = {
           "title": "状态管理",
           "slug": "状态管理"
         }
-      ]
+      ],
+      "lastUpdated": "4/16/2020, 6:07:20 AM"
     },
     {
       "title": "AMS 介绍",
@@ -233,7 +310,17 @@ export const siteData = {
           "/dev/component-registry",
           "/dev/function-registry",
           "/dev/component-lifecycle",
-          "/dev/component-store-caches"
+          "/dev/component-store-caches",
+          "/dev/internal-routes",
+          "/dev/internal-api"
+        ]
+      },
+      {
+        "title": "定制项目",
+        "collapsable": false,
+        "sidebarDepth": 2,
+        "children": [
+          "/customize-projects/cost-per-buy"
         ]
       }
     ],

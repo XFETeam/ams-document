@@ -21,6 +21,14 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-4fbb188a",
+    path: "/customize-projects/cost-per-buy.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4fbb188a").then(next)
+    },
+  },
+  {
     name: "v-5cc728ea",
     path: "/dev/component-lifecycle.html",
     component: GlobalLayout,
@@ -50,6 +58,22 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-f8aae02c").then(next)
+    },
+  },
+  {
+    name: "v-154ee264",
+    path: "/dev/internal-api.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-154ee264").then(next)
+    },
+  },
+  {
+    name: "v-0f12c62c",
+    path: "/dev/internal-routes.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0f12c62c").then(next)
     },
   },
   {

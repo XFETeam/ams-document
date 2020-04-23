@@ -8,7 +8,7 @@ title: 函数仓库
 目前 AMS 在前期仅提供以下`函数仓库`:
 
     antd
-    base
+    ams
 
 与`组件仓库`规范一致，函数仓库需要注意：
 
@@ -33,7 +33,7 @@ export const delay = (milliseconds: number) => {
 delay.apply(null, [<milliseconds>]);
 ```
 
-`delay` 为函数名，我们仍需定义一个函数仓库用于管理一系列的函数所属，即：`registryName='base'`。 `[<milliseconds>]` 为传入参数，这时我们已经可以使用 json 进行进一步的转换表达：
+`delay` 为函数名，我们仍需定义一个函数仓库用于管理一系列的函数所属，即：`registryName='ams'`。 `[<milliseconds>]` 为传入参数，这时我们已经可以使用 json 进行进一步的转换表达：
 ```json5
 //export const delay = (milliseconds: number) => {
 //  return new Promise((resolve) => setTimeout(resolve, milliseconds));
@@ -41,7 +41,7 @@ delay.apply(null, [<milliseconds>]);
 // delay(1000);
 {
   "$$$": "function",
-  "reigstryName": "base",
+  "reigstryName": "ams",
   "functionName": "delay",
   "args": [
     1000 /* 1秒 */
@@ -69,6 +69,6 @@ delay.apply(null, [<milliseconds>]);
 }
 ```
 
-### 函数仓库 - base
+### 函数仓库 - ams
 
 文档待补全。

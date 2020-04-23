@@ -8,5 +8,7 @@ module.exports = {
     '/dev/function-registry',
     '/dev/component-lifecycle',
     '/dev/component-store-caches',
+    '/dev/internal-routes',
+    '/dev/internal-api'
   ]
 }

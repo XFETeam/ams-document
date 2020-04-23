@@ -10,7 +10,8 @@ title: 组件仓库
     html
     antd
     @ant-design/pro-layout
-    base
+    ams (AMS 内置组件)
+    ams/projects/cost-per-buy (AMS 定制项目: 买量后台)
 
 阅读至此，开发者需要大致知道的是：
 
@@ -62,7 +63,7 @@ antd 并能够使用官网上的所有提供的[组件案例](https://ant.design
   "props": {
     "type": "primary"
   },
-  children: [
+  "children": [
     "Primary"
   ]
 }
@@ -113,6 +114,6 @@ antd 并能够使用官网上的所有提供的[组件案例](https://ant.design
 
 具体使用方式请参考：[https://prolayout.ant.design/](https://prolayout.ant.design/)
 
-### 组件仓库 - base
+### 组件仓库 - ams
 
 文档待补全。
