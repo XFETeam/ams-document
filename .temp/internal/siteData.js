@@ -47,6 +47,34 @@ export const siteData = {
           "title": "组件列表",
           "slug": "组件列表"
         }
+      ],
+      "lastUpdated": "4/23/2020, 11:24:03 AM"
+    },
+    {
+      "title": "布局",
+      "frontmatter": {
+        "title": "布局"
+      },
+      "regularPath": "/customize-projects/layout.html",
+      "relativePath": "customize-projects/layout.md",
+      "key": "v-6cdcd26c",
+      "path": "/customize-projects/layout.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "布局 - Layout",
+          "slug": "布局-layout"
+        },
+        {
+          "level": 2,
+          "title": "布局 - Layout.Custom",
+          "slug": "布局-layout-custom"
+        },
+        {
+          "level": 2,
+          "title": "布局 - Layout.Basic",
+          "slug": "布局-layout-basic"
+        }
       ]
     },
     {
@@ -108,7 +136,7 @@ export const siteData = {
           "slug": "组件仓库-ams"
         }
       ],
-      "lastUpdated": "4/14/2020, 3:47:36 PM"
+      "lastUpdated": "4/23/2020, 11:23:46 AM"
     },
     {
       "title": "组件存储缓存",
@@ -169,7 +197,7 @@ export const siteData = {
           "slug": "函数仓库-ams"
         }
       ],
-      "lastUpdated": "4/14/2020, 3:47:36 PM"
+      "lastUpdated": "4/23/2020, 11:23:46 AM"
     },
     {
       "title": "内置接口 API",
@@ -196,7 +224,8 @@ export const siteData = {
           "title": "2. 开发环境登录 (路径: /login)",
           "slug": "_2-开发环境登录-路径-login"
         }
-      ]
+      ],
+      "lastUpdated": "4/23/2020, 11:24:03 AM"
     },
     {
       "title": "内置路由",
@@ -218,7 +247,8 @@ export const siteData = {
           "title": "常规流程",
           "slug": "常规流程"
         }
-      ]
+      ],
+      "lastUpdated": "4/23/2020, 11:24:03 AM"
     },
     {
       "title": "仓库",
@@ -236,7 +266,7 @@ export const siteData = {
           "slug": "仓库"
         }
       ],
-      "lastUpdated": "4/14/2020, 12:26:12 PM"
+      "lastUpdated": "4/23/2020, 11:23:46 AM"
     },
     {
       "title": "状态管理",
@@ -320,7 +350,8 @@ export const siteData = {
         "collapsable": false,
         "sidebarDepth": 2,
         "children": [
-          "/customize-projects/cost-per-buy"
+          "/customize-projects/cost-per-buy",
+          "/customize-projects/layout"
         ]
       }
     ],

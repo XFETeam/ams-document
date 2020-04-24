@@ -29,6 +29,14 @@ export const routes = [
     },
   },
   {
+    name: "v-6cdcd26c",
+    path: "/customize-projects/layout.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6cdcd26c").then(next)
+    },
+  },
+  {
     name: "v-5cc728ea",
     path: "/dev/component-lifecycle.html",
     component: GlobalLayout,

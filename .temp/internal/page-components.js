@@ -4,6 +4,7 @@
 export default {
   "v-0f0d0151": () => import("/workspace/ams-document/docs/README.md"),
   "v-4fbb188a": () => import("/workspace/ams-document/docs/customize-projects/cost-per-buy.md"),
+  "v-6cdcd26c": () => import("/workspace/ams-document/docs/customize-projects/layout.md"),
   "v-5cc728ea": () => import("/workspace/ams-document/docs/dev/component-lifecycle.md"),
   "v-d88ef170": () => import("/workspace/ams-document/docs/dev/component-registry.md"),
   "v-1a44d408": () => import("/workspace/ams-document/docs/dev/component-store-caches.md"),
