@@ -8,8 +8,9 @@ title: 组件仓库
 就是作为 `button` 的仓库，而 `button` 则代表组件。那么我们可以通过不同的仓库即可获得不同的组件。目前有以下`组件仓库`：
 
     html
-    antd
-    @ant-design/pro-layout
+    antd (版本: 4.1.4)
+    @ant-design/pro-layout (版本: 5.0.9)
+    @ant-design/icons (版本: 4.1.6)
     ams (AMS 内置组件)
     ams/projects/cost-per-buy (AMS 定制项目: 买量后台)
 
@@ -109,6 +110,10 @@ antd 并能够使用官网上的所有提供的[组件案例](https://ant.design
   ]
 }
 ```
+
+### 组件仓库 - @ant-design/icons
+
+具体使用方式请参考：[https://ant.design/components/icon/](https://ant.design/components/icon/)
 
 ### 组件仓库 - @ant-design/pro-layout
 

@@ -76,7 +76,7 @@ export const siteData = {
           "slug": "布局-layout-basic"
         }
       ],
-      "lastUpdated": "4/24/2020, 7:12:36 AM"
+      "lastUpdated": "4/24/2020, 7:40:29 AM"
     },
     {
       "title": "组件仓库",
@@ -102,6 +102,11 @@ export const siteData = {
           "level": 3,
           "title": "组件仓库 - antd",
           "slug": "组件仓库-antd"
+        },
+        {
+          "level": 3,
+          "title": "组件仓库 - @ant-design/icons",
+          "slug": "组件仓库-ant-design-icons"
         },
         {
           "level": 3,
