@@ -1,4 +1,4 @@
-# AMS Document [![Build Status](https://travis-ci.com/XFETeam/ams-document.svg?branch=master)](https://travis-ci.com/XFETeam/ams-document)
+# AMS (Activity Management System) Document [![Build Status](https://travis-ci.com/XFETeam/ams-document.svg?branch=master)](https://travis-ci.com/XFETeam/ams-document)
 
 > AMS 是一个基于 JSON 动态解析微前端中后台前端/设计解决方案, 当前仓库用于记录 AMS 相关文档使用。
 
