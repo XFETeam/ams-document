@@ -4,7 +4,7 @@ title: 布局
 
 ## 布局 - Layout
 
-目前 AMS 分别提供 3 种布局: `Custom` `Blank` , 使用时需要携带前缀 `Layout.Custom` `Layout.Blank` 在大部分情况下使用如下:
+目前 AMS 分别提供 3 种布局: `Custom` `Blank` , 使用时需要携带前缀 `Layout.Custom` `Layout.Blank`
 
 ## 布局 - Layout.Custom
 
