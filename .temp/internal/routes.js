@@ -37,14 +37,6 @@ export const routes = [
     },
   },
   {
-    name: "v-5cc728ea",
-    path: "/dev/component-lifecycle.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5cc728ea").then(next)
-    },
-  },
-  {
     name: "v-d88ef170",
     path: "/dev/component-registry.html",
     component: GlobalLayout,
@@ -66,6 +58,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-f8aae02c").then(next)
+    },
+  },
+  {
+    name: "v-5cc728ea",
+    path: "/dev/component-lifecycle.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5cc728ea").then(next)
     },
   },
   {

@@ -75,30 +75,8 @@ export const siteData = {
           "title": "布局 - Layout.Basic",
           "slug": "布局-layout-basic"
         }
-      ]
-    },
-    {
-      "title": "组件生命周期",
-      "frontmatter": {
-        "title": "组件生命周期"
-      },
-      "regularPath": "/dev/component-lifecycle.html",
-      "relativePath": "dev/component-lifecycle.md",
-      "key": "v-5cc728ea",
-      "path": "/dev/component-lifecycle.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "生命周期",
-          "slug": "生命周期"
-        },
-        {
-          "level": 3,
-          "title": "组件挂载/组件卸载",
-          "slug": "组件挂载-组件卸载"
-        }
       ],
-      "lastUpdated": "4/14/2020, 3:47:36 PM"
+      "lastUpdated": "4/24/2020, 7:12:36 AM"
     },
     {
       "title": "组件仓库",
@@ -198,6 +176,29 @@ export const siteData = {
         }
       ],
       "lastUpdated": "4/23/2020, 11:23:46 AM"
+    },
+    {
+      "title": "组件生命周期",
+      "frontmatter": {
+        "title": "组件生命周期"
+      },
+      "regularPath": "/dev/component-lifecycle.html",
+      "relativePath": "dev/component-lifecycle.md",
+      "key": "v-5cc728ea",
+      "path": "/dev/component-lifecycle.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "生命周期",
+          "slug": "生命周期"
+        },
+        {
+          "level": 3,
+          "title": "组件挂载/组件卸载",
+          "slug": "组件挂载-组件卸载"
+        }
+      ],
+      "lastUpdated": "4/14/2020, 3:47:36 PM"
     },
     {
       "title": "内置接口 API",
