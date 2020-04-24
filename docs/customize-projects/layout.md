@@ -10,8 +10,6 @@ title: 布局
 
 Layout.Custom 是有完整的侧边导航和后台完整结构界面的常用布局, 基本使用方式如下
 
-![custom-layout](/ams-document/images/custom-layout.png)
-
 ```json5
 {
   $$$: 'component',
@@ -34,6 +32,10 @@ Layout.Custom 是有完整的侧边导航和后台完整结构界面的常用布
   },
 }
 ```
+
+#### 布局 - Layout.Custom 效果图
+
+![custom-layout](/ams-document/images/custom-layout.png)
 
 #### 布局 - Layout.Custom 默认属性
 
@@ -114,8 +116,6 @@ sidebar 是一个**递归型数组**, 它的每一个数组结构如下
 
 完全空白的布局, 开发者只能补充相应的 children 即可
 
-![custom-layout](/ams-document/images/blank-layout.png)
-
 ```json5
 {
   $$$: 'component',
@@ -124,6 +124,9 @@ sidebar 是一个**递归型数组**, 它的每一个数组结构如下
   children: [...]
 }
 ```
+
+#### 布局 - Layout.Basic 效果图
+![custom-layout](/ams-document/images/blank-layout.png)
 
 #### props: 
 
