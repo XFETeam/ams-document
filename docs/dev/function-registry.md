@@ -61,7 +61,7 @@ delay.apply(null, [<milliseconds>]);
 
 {
   "$$$": "function",
-  "reigstryName": "antd",
+  "registryName": "antd",
   "functionName": "message",
   "args": [
     "This is a normal message"
