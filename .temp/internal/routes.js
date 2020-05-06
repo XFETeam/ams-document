@@ -37,6 +37,30 @@ export const routes = [
     },
   },
   {
+    name: "v-05908bca",
+    path: "/dev/component-action-ref.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-05908bca").then(next)
+    },
+  },
+  {
+    name: "v-5cc728ea",
+    path: "/dev/component-lifecycle.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5cc728ea").then(next)
+    },
+  },
+  {
+    name: "v-85268908",
+    path: "/dev/component-observable.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-85268908").then(next)
+    },
+  },
+  {
     name: "v-d88ef170",
     path: "/dev/component-registry.html",
     component: GlobalLayout,
@@ -61,11 +85,11 @@ export const routes = [
     },
   },
   {
-    name: "v-5cc728ea",
-    path: "/dev/component-lifecycle.html",
+    name: "v-3a71b1aa",
+    path: "/dev/function-trigger-action.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5cc728ea").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3a71b1aa").then(next)
     },
   },
   {

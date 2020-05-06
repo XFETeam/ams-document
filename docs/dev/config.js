@@ -9,6 +9,9 @@ module.exports = {
     '/dev/component-lifecycle',
     '/dev/component-store-caches',
     '/dev/internal-routes',
-    '/dev/internal-api'
+    '/dev/internal-api',
+    '/dev/component-observable',
+    '/dev/component-action-ref',
+    '/dev/function-trigger-action'
   ]
 }

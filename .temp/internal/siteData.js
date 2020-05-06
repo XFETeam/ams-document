@@ -79,6 +79,83 @@ export const siteData = {
       "lastUpdated": "4/24/2020, 7:40:29 AM"
     },
     {
+      "title": "组件 ActionRef",
+      "frontmatter": {
+        "title": "组件 ActionRef"
+      },
+      "regularPath": "/dev/component-action-ref.html",
+      "relativePath": "dev/component-action-ref.md",
+      "key": "v-05908bca",
+      "path": "/dev/component-action-ref.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "组件 ActionRef",
+          "slug": "组件-actionref"
+        },
+        {
+          "level": 2,
+          "title": "ActionRef 调用",
+          "slug": "actionref-调用"
+        },
+        {
+          "level": 2,
+          "title": "常见需设置 actionRef 组件",
+          "slug": "常见需设置-actionref-组件"
+        }
+      ]
+    },
+    {
+      "title": "组件生命周期",
+      "frontmatter": {
+        "title": "组件生命周期"
+      },
+      "regularPath": "/dev/component-lifecycle.html",
+      "relativePath": "dev/component-lifecycle.md",
+      "key": "v-5cc728ea",
+      "path": "/dev/component-lifecycle.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "生命周期",
+          "slug": "生命周期"
+        },
+        {
+          "level": 3,
+          "title": "组件挂载/组件卸载",
+          "slug": "组件挂载-组件卸载"
+        }
+      ],
+      "lastUpdated": "4/14/2020, 3:47:36 PM"
+    },
+    {
+      "title": "组件 observable",
+      "frontmatter": {
+        "title": "组件 observable"
+      },
+      "regularPath": "/dev/component-observable.html",
+      "relativePath": "dev/component-observable.md",
+      "key": "v-85268908",
+      "path": "/dev/component-observable.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "组件 observable",
+          "slug": "组件-observable"
+        },
+        {
+          "level": 2,
+          "title": "禁用组件 observable",
+          "slug": "禁用组件-observable"
+        },
+        {
+          "level": 2,
+          "title": "常见的禁用",
+          "slug": "常见的禁用"
+        }
+      ]
+    },
+    {
       "title": "组件仓库",
       "frontmatter": {
         "title": "组件仓库"
@@ -119,7 +196,7 @@ export const siteData = {
           "slug": "组件仓库-ams"
         }
       ],
-      "lastUpdated": "4/23/2020, 11:23:46 AM"
+      "lastUpdated": "4/24/2020, 2:37:29 PM"
     },
     {
       "title": "组件存储缓存",
@@ -147,7 +224,7 @@ export const siteData = {
           "slug": "用法"
         }
       ],
-      "lastUpdated": "4/15/2020, 4:44:58 AM"
+      "lastUpdated": "4/24/2020, 2:37:29 PM"
     },
     {
       "title": "函数仓库",
@@ -180,30 +257,29 @@ export const siteData = {
           "slug": "函数仓库-ams"
         }
       ],
-      "lastUpdated": "4/23/2020, 11:23:46 AM"
+      "lastUpdated": "4/26/2020, 3:30:09 AM"
     },
     {
-      "title": "组件生命周期",
+      "title": "函数 TriggerAction",
       "frontmatter": {
-        "title": "组件生命周期"
+        "title": "函数 TriggerAction"
       },
-      "regularPath": "/dev/component-lifecycle.html",
-      "relativePath": "dev/component-lifecycle.md",
-      "key": "v-5cc728ea",
-      "path": "/dev/component-lifecycle.html",
+      "regularPath": "/dev/function-trigger-action.html",
+      "relativePath": "dev/function-trigger-action.md",
+      "key": "v-3a71b1aa",
+      "path": "/dev/function-trigger-action.html",
       "headers": [
         {
           "level": 2,
-          "title": "生命周期",
-          "slug": "生命周期"
+          "title": "函数 TriggerAction",
+          "slug": "函数-triggeraction"
         },
         {
           "level": 3,
-          "title": "组件挂载/组件卸载",
-          "slug": "组件挂载-组件卸载"
+          "title": "例子",
+          "slug": "例子"
         }
-      ],
-      "lastUpdated": "4/14/2020, 3:47:36 PM"
+      ]
     },
     {
       "title": "内置接口 API",
@@ -348,7 +424,10 @@ export const siteData = {
           "/dev/component-lifecycle",
           "/dev/component-store-caches",
           "/dev/internal-routes",
-          "/dev/internal-api"
+          "/dev/internal-api",
+          "/dev/component-observable",
+          "/dev/component-action-ref",
+          "/dev/function-trigger-action"
         ]
       },
       {
