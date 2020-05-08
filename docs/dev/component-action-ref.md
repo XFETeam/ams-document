@@ -79,3 +79,4 @@ title: 组件 ActionRef
 ## 常见需设置 actionRef 组件
 
   * antd Form
+  * ams ProTable
