@@ -73,7 +73,7 @@ title: 组件 ActionRef
 }
 ```
 
-*** 注: triggerAction 将在后续章节详细说明 ***
+<strong>注: triggerAction 将在后续章节详细说明</strong>
 
 
 ## 常见需设置 actionRef 组件
