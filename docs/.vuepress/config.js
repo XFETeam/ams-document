@@ -19,6 +19,7 @@ module.exports = {
       /* 介绍 */ require('../intro/config'),
       /* 开发 */ require('../dev/config'),
       /* 定制项目 */ require('../customize-projects/config'),
+      /* 常见问题 */ require('../faq/config'),
     ],
     // Service Worker 的配置
     serviceWorker: {

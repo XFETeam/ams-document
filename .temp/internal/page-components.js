@@ -15,6 +15,8 @@ export default {
   "v-154ee264": () => import("/workspace/ams-document/docs/dev/internal-api.md"),
   "v-0f12c62c": () => import("/workspace/ams-document/docs/dev/internal-routes.md"),
   "v-690a8828": () => import("/workspace/ams-document/docs/dev/registry.md"),
+  "v-ec22dd98": () => import("/workspace/ams-document/docs/faq/component-naming.md"),
+  "v-367fffea": () => import("/workspace/ams-document/docs/faq/style-and-classname.md"),
   "v-1b6a6fca": () => import("/workspace/ams-document/docs/fe-customize/state-management.md"),
   "v-00cbe80a": () => import("/workspace/ams-document/docs/intro/intro.md") 
 }

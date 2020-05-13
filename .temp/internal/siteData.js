@@ -103,7 +103,8 @@ export const siteData = {
           "title": "常见需设置 actionRef 组件",
           "slug": "常见需设置-actionref-组件"
         }
-      ]
+      ],
+      "lastUpdated": "5/8/2020, 7:27:35 AM"
     },
     {
       "title": "组件生命周期",
@@ -153,7 +154,8 @@ export const siteData = {
           "title": "常见的禁用",
           "slug": "常见的禁用"
         }
-      ]
+      ],
+      "lastUpdated": "5/6/2020, 3:05:15 AM"
     },
     {
       "title": "组件仓库",
@@ -279,7 +281,8 @@ export const siteData = {
           "title": "例子",
           "slug": "例子"
         }
-      ]
+      ],
+      "lastUpdated": "5/6/2020, 3:05:15 AM"
     },
     {
       "title": "内置接口 API",
@@ -349,6 +352,50 @@ export const siteData = {
         }
       ],
       "lastUpdated": "4/23/2020, 11:23:46 AM"
+    },
+    {
+      "title": "组件命名",
+      "frontmatter": {
+        "title": "组件命名"
+      },
+      "regularPath": "/faq/component-naming.html",
+      "relativePath": "faq/component-naming.md",
+      "key": "v-ec22dd98",
+      "path": "/faq/component-naming.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "为什么组件用大写开头",
+          "slug": "为什么组件用大写开头"
+        }
+      ]
+    },
+    {
+      "title": "style 和 className",
+      "frontmatter": {
+        "title": "style 和 className"
+      },
+      "regularPath": "/faq/style-and-classname.html",
+      "relativePath": "faq/style-and-classname.md",
+      "key": "v-367fffea",
+      "path": "/faq/style-and-classname.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "style 和 className",
+          "slug": "style-和-classname"
+        },
+        {
+          "level": 2,
+          "title": "style",
+          "slug": "style"
+        },
+        {
+          "level": 2,
+          "title": "className",
+          "slug": "classname"
+        }
+      ]
     },
     {
       "title": "状态管理",
@@ -437,6 +484,15 @@ export const siteData = {
         "children": [
           "/customize-projects/cost-per-buy",
           "/customize-projects/layout"
+        ]
+      },
+      {
+        "title": "FAQ",
+        "collapsable": false,
+        "sidebarDepth": 2,
+        "children": [
+          "/faq/component-naming",
+          "/faq/style-and-classname"
         ]
       }
     ],

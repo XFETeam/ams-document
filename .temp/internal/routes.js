@@ -117,6 +117,22 @@ export const routes = [
     },
   },
   {
+    name: "v-ec22dd98",
+    path: "/faq/component-naming.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ec22dd98").then(next)
+    },
+  },
+  {
+    name: "v-367fffea",
+    path: "/faq/style-and-classname.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-367fffea").then(next)
+    },
+  },
+  {
     name: "v-1b6a6fca",
     path: "/fe-customize/state-management.html",
     component: GlobalLayout,

@@ -4,6 +4,6 @@ module.exports = {
   sidebarDepth: 2,
   children: [
     '/customize-projects/cost-per-buy',
-    '/customize-projects/layout',
+    // '/customize-projects/layout',
   ]
 }
