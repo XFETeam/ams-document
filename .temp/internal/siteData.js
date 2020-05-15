@@ -23,6 +23,45 @@ export const siteData = {
       "lastUpdated": "4/15/2020, 4:44:58 AM"
     },
     {
+      "title": "创建项目",
+      "frontmatter": {
+        "title": "创建项目"
+      },
+      "regularPath": "/continuous-development/create-projects.html",
+      "relativePath": "continuous-development/create-projects.md",
+      "key": "v-3e8401a4",
+      "path": "/continuous-development/create-projects.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "创建项目",
+          "slug": "创建项目"
+        },
+        {
+          "level": 2,
+          "title": "创建项目文件夹",
+          "slug": "创建项目文件夹"
+        }
+      ]
+    },
+    {
+      "title": "持续开发",
+      "frontmatter": {
+        "title": "持续开发"
+      },
+      "regularPath": "/continuous-development/intro.html",
+      "relativePath": "continuous-development/intro.md",
+      "key": "v-762d1522",
+      "path": "/continuous-development/intro.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "持续开发",
+          "slug": "持续开发"
+        }
+      ]
+    },
+    {
       "title": "买量后台 - CostPerBuy",
       "frontmatter": {
         "title": "买量后台 - CostPerBuy"
@@ -368,7 +407,8 @@ export const siteData = {
           "title": "为什么组件用大写开头",
           "slug": "为什么组件用大写开头"
         }
-      ]
+      ],
+      "lastUpdated": "5/13/2020, 12:49:48 PM"
     },
     {
       "title": "style 和 className",
@@ -395,7 +435,8 @@ export const siteData = {
           "title": "className",
           "slug": "classname"
         }
-      ]
+      ],
+      "lastUpdated": "5/13/2020, 12:49:48 PM"
     },
     {
       "title": "状态管理",
@@ -482,8 +523,7 @@ export const siteData = {
         "collapsable": false,
         "sidebarDepth": 2,
         "children": [
-          "/customize-projects/cost-per-buy",
-          "/customize-projects/layout"
+          "/customize-projects/cost-per-buy"
         ]
       },
       {
@@ -493,6 +533,15 @@ export const siteData = {
         "children": [
           "/faq/component-naming",
           "/faq/style-and-classname"
+        ]
+      },
+      {
+        "title": "持续开发",
+        "collapsable": false,
+        "sidebarDepth": 2,
+        "children": [
+          "/continuous-development/intro",
+          "/continuous-development/create-projects"
         ]
       }
     ],

@@ -21,6 +21,22 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-3e8401a4",
+    path: "/continuous-development/create-projects.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3e8401a4").then(next)
+    },
+  },
+  {
+    name: "v-762d1522",
+    path: "/continuous-development/intro.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-762d1522").then(next)
+    },
+  },
+  {
     name: "v-4fbb188a",
     path: "/customize-projects/cost-per-buy.html",
     component: GlobalLayout,

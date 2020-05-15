@@ -3,6 +3,8 @@
  */
 export default {
   "v-0f0d0151": () => import("/workspace/ams-document/docs/README.md"),
+  "v-3e8401a4": () => import("/workspace/ams-document/docs/continuous-development/create-projects.md"),
+  "v-762d1522": () => import("/workspace/ams-document/docs/continuous-development/intro.md"),
   "v-4fbb188a": () => import("/workspace/ams-document/docs/customize-projects/cost-per-buy.md"),
   "v-6cdcd26c": () => import("/workspace/ams-document/docs/customize-projects/layout.md"),
   "v-05908bca": () => import("/workspace/ams-document/docs/dev/component-action-ref.md"),
